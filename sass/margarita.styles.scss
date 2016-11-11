@@ -1,0 +1,128 @@
+// Import variables, abstractions, base styles and components.
+// Uncomment the next lines and adjust them to your needs.
+//@import "variables/{YOUR FILE NAME HERE}";
+//@import "abstractions/{YOUR FILE NAME HERE}";
+//@import "base/{YOUR FILE NAME HERE}";
+//@import "components/{YOUR FILE NAME HERE}";
+// Fonts
+$font-content: 'Open Sans', sans-serif;
+$font-title: 'Roboto Slab', serif;
+
+$color-main: #9E2A2B;
+$color-two: #335C67;
+$color-three: #E09F3E;
+
+$color-danger: #ff0000;
+$color-warning:#ffa800;
+$color-success: #02af03;
+
+body {
+  //background-color: $color-secondary;
+  font: 16px $font-content;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  font-family: $font-title;
+  margin-top: 0em;
+}
+
+p {
+  font-size: 0.25em;
+}
+
+
+.l-header {
+  font-family: $font-title;
+  .site-branding__logo {
+    float: left;
+  }
+  .site-branding__name {
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    font-size: 2.5em;
+    margin-top: 5px;
+  }
+  .site-slogan {
+    font-family: $font-content;
+  }
+}
+
+.menu {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  ul {
+    list-style-type: none;
+  }
+  a{
+    color: white;
+  }
+  .active{
+    color:$color-main;
+  }
+}
+
+.breadcrumb {
+  margin: 0.5em 0em 0.5em 0em;
+  font-family: $font-content;
+  font-size: 0.75em;
+  color: $color-two;
+    a{
+      color: $color-two;
+    }
+}
+
+.l-main {
+  h1 {
+    font-size: 2em;
+    padding-left: 10px;
+    //margin: 0em 0em 0em 2em;
+  }
+}
+
+.view-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.c-cards-view1 {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 5px 0px 0px 0px;
+  border-color: black;
+  box-shadow: 0 2.5px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 5px;
+  width: 250px;
+  margin: 5px;
+  min-height: 250px;
+  flex:0 2 auto;
+}
+.c-card-quote {
+  font-family: $font-title;
+  font-size: 1.5em;
+}
+.c-card-tags {
+  font-family: $font-content;
+  font-size: 0.65em;
+    a{
+      color: white;
+      background-color: black;
+      padding: 2px 4px 2px 4px;
+      border-radius: 4px;
+    }
+    .even{
+        margin-top: 10px;
+          }
+    .odd{
+        margin-top: 10px;
+      }
+    }

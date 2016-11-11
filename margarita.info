@@ -1,0 +1,24 @@
+name = Margarita
+description = Omega subtheme created to learn themeing. From Bulgakov's novel the master and margarita
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; Styles
+stylesheets[all][] = css/margarita.reset.css
+stylesheets[all][] = css/margarita.styles.css
+
+; Scripts
+scripts[] = js/margarita.behaviors.js
+
+; Regions
+regions[branding]       = Branding
+regions[navigation]     = Navigation bar
+regions[header]         = Header
+regions[hero]           = Hero
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer

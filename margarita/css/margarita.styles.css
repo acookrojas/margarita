@@ -1,0 +1,142 @@
+/* line 19, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+body {
+  font: 16px "Open Sans", sans-serif;
+}
+
+/* line 24, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif;
+  margin-top: 0em;
+}
+
+/* line 29, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+p {
+  font-size: 0.25em;
+}
+
+/* line 34, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-header {
+  font-family: "Roboto Slab", serif;
+}
+
+/* line 36, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-header .site-branding__logo {
+  float: left;
+}
+
+/* line 39, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-header .site-branding__name {
+  font-size: 2.5em;
+  margin-top: 5px;
+}
+
+/* line 40, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-header .site-branding__name a {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 47, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-header .site-slogan {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 52, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.menu {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 60, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.menu ul {
+  list-style-type: none;
+}
+
+/* line 63, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.menu a {
+  color: white;
+}
+
+/* line 66, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.menu .active {
+  color: #9E2A2B;
+}
+
+/* line 71, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.breadcrumb {
+  margin: 0.5em 0em 0.5em 0em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75em;
+  color: #335C67;
+}
+
+/* line 76, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.breadcrumb a {
+  color: #335C67;
+}
+
+/* line 82, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-main h1 {
+  font-size: 2em;
+  padding-left: 10px;
+}
+
+/* line 89, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.view-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+/* line 97, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-cards-view1 {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 5px 0px 0px 0px;
+  border-color: black;
+  box-shadow: 0 2.5px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 5px;
+  width: 250px;
+  margin: 5px;
+  min-height: 250px;
+  flex: 0 2 auto;
+}
+
+/* line 109, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-quote {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5em;
+}
+
+/* line 113, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-tags {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.65em;
+}
+
+/* line 116, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-tags a {
+  color: white;
+  background-color: black;
+  padding: 2px 4px 2px 4px;
+  border-radius: 4px;
+}
+
+/* line 122, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-tags .even {
+  margin-top: 10px;
+}
+
+/* line 125, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-tags .odd {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=../css/margarita.styles.map */
