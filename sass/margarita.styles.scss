@@ -55,16 +55,18 @@ p {
   flex-direction: row;
   padding: 0.5em;
   background-color: black;
-  color: white;
-  text-decoration: none;
+  font-family: $font-content;
+  font-weight:bold;
   ul {
     list-style-type: none;
+    margin-left: 0.5em;
   }
   a{
-    color: white;
+    color: $color-main;
+    text-decoration: none;
   }
   .active{
-    color:$color-main;
+    color: white;
   }
 }
 
