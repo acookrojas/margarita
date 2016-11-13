@@ -1,6 +1,7 @@
 /* line 19, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 body {
-  font: 16px "Open Sans", sans-serif;
+  min-width: 320px;
+  font: 100% "Open Sans", sans-serif;
 }
 
 /* line 24, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
@@ -11,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 29, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 p {
-  font-size: 0.25em;
+  font-size: 0.25rem;
 }
 
 /* line 34, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
@@ -26,7 +27,7 @@ p {
 
 /* line 39, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-header .site-branding__name {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin-top: 5px;
 }
 
@@ -71,9 +72,9 @@ p {
 
 /* line 73, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .breadcrumb {
-  margin: 0.5em 0em 0.5em 0em;
   font-family: "Open Sans", sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
+  padding: 0.5em 0em 0.5em 10px;
   color: #335C67;
 }
 
@@ -82,13 +83,18 @@ p {
   color: #335C67;
 }
 
+/* line 83, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-main {
+  padding: 0.5em 0em 0.5em 0em;
+}
+
 /* line 84, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-main h1 {
   font-size: 2em;
   padding-left: 10px;
 }
 
-/* line 91, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 92, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .view-content {
   display: flex;
   flex-direction: row;
@@ -97,7 +103,7 @@ p {
   align-items: baseline;
 }
 
-/* line 99, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 100, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-cards-view1 {
   background-color: #ffffff;
   border-style: solid;
@@ -111,19 +117,19 @@ p {
   flex: 0 2 auto;
 }
 
-/* line 111, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 112, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-quote {
   font-family: "Roboto Slab", serif;
   font-size: 1.5em;
 }
 
-/* line 115, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 116, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-tags {
   font-family: "Open Sans", sans-serif;
   font-size: 0.65em;
 }
 
-/* line 118, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 119, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-tags a {
   color: white;
   background-color: black;
@@ -131,14 +137,28 @@ p {
   border-radius: 4px;
 }
 
-/* line 124, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 125, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-tags .even {
   margin-top: 10px;
 }
 
-/* line 127, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 128, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-tags .odd {
   margin-top: 10px;
+}
+
+/* line 132, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-footer {
+  min-height: 10em;
+  padding: 0.5em;
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+/* line 138, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.l-footer a {
+  color: #E09F3E;
 }
 
 /*# sourceMappingURL=../css/margarita.styles.map */
