@@ -121,22 +121,50 @@ p {
   font-family: $font-title;
   font-size: 1.5em;
 }
-.c-card-tags {
+.c-card-themes {
   font-family: $font-content;
   font-size: 0.65em;
+  margin: 0.75rem 0rem 0rem 0rem;
     a{
       color: white;
       background-color: black;
       padding: 0.25rem 0.5rem 0.25rem 0.5rem;
       border-radius: 0.5rem;
     }
-    .even{
-        margin-top: 1rem;
-          }
-    .odd{
-        margin-top: 1rem;
-      }
     }
+.c-card-characters {
+  font-family: $font-content;
+  font-size: 0.65em;
+  margin: 0.75rem 0rem 0rem 0rem;
+    a{
+      color: white;
+      background-color: black;
+      padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+      border-radius: 0.5rem;
+    }
+    }
+.c-card-places {
+  font-family: $font-content;
+  font-size: 0.65em;
+  margin: 0.75rem 0rem 0rem 0rem;
+    a{
+      color: white;
+      background-color: black;
+      padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+      border-radius: 0.5rem;
+    }
+    }
+  .c-card-objects {
+    font-family: $font-content;
+    font-size: 0.65em;
+    margin: 0.75rem 0rem 0rem 0rem;
+      a{
+        color: white;
+        background-color: black;
+        padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+        border-radius: 0.5rem;
+      }
+      }
 .l-footer {
   display: block;
   min-height: 10rem;

@@ -135,30 +135,66 @@ p {
 }
 
 /* line 124, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
-.c-card-tags {
+.c-card-themes {
   font-family: "Open Sans", sans-serif;
   font-size: 0.65em;
+  margin: 0.75rem 0rem 0rem 0rem;
 }
 
-/* line 127, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
-.c-card-tags a {
+/* line 128, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-themes a {
   color: white;
   background-color: black;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
   border-radius: 0.5rem;
 }
 
-/* line 133, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
-.c-card-tags .even {
-  margin-top: 1rem;
+/* line 135, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-characters {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.65em;
+  margin: 0.75rem 0rem 0rem 0rem;
 }
 
-/* line 136, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
-.c-card-tags .odd {
-  margin-top: 1rem;
+/* line 139, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-characters a {
+  color: white;
+  background-color: black;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-radius: 0.5rem;
 }
 
-/* line 140, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 146, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-places {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.65em;
+  margin: 0.75rem 0rem 0rem 0rem;
+}
+
+/* line 150, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-places a {
+  color: white;
+  background-color: black;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* line 157, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-objects {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.65em;
+  margin: 0.75rem 0rem 0rem 0rem;
+}
+
+/* line 161, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+.c-card-objects a {
+  color: white;
+  background-color: black;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* line 168, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-footer {
   display: block;
   min-height: 10rem;
@@ -173,7 +209,7 @@ p {
   margin: 1rem;
 }
 
-/* line 152, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 180, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-footer a {
   color: #E09F3E;
 }
