@@ -14,7 +14,7 @@ $color-symbols: #49138b;
 $color-themes: #19227d;
 $color-places: #004c3f;
 $color-characters: #32681d;
-$color-objects: #f47e16;
+$color-objects: #F9A825;
 $color-location: #be350b;
 
 $color-danger: #ff0000;
@@ -79,7 +79,7 @@ p {
   .active{
     border-style: solid;
     border-width: 0rem 0rem 0.25rem 0rem;
-    border-color: black;
+    border-color: $color-main;
   }
 }
 
@@ -131,39 +131,49 @@ p {
     font-size: 0.65em;
     margin: 0.75rem 0rem 0rem 0rem;
       a{
+        font-size: 0.85em;
+        letter-spacing: 0.09em;
         color: white;
         background-color: black;
+        text-decoration: none;
         padding: 0.15rem 0.25rem 0.15rem 0.25rem;
         border-radius: 0.25rem;
       }
 }
 .c-card-category {
-
     a{
 
     }
     }
 .c-card-themes {
-
+    color: $color-themes;
     a{
-
+      background-color: $color-themes;
     }
     }
 .c-card-characters {
-
+    color: $color-characters;
     a{
-
+      background-color: $color-characters;
     }
     }
 .c-card-places {
-
+    color: $color-places;
     a{
-
+      background-color: $color-places;
     }
     }
 .c-card-objects {
-
+    color: $color-objects;
     a{
+      background-color: $color-objects;
+    }
+    }
+.c-card-symbols {
+    color: $color-symbols;
+    a{
+      color: black;
+      background-color: $color-symbols;
 
     }
     }
