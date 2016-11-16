@@ -8,9 +8,14 @@
 $font-content: 'Open Sans', sans-serif;
 $font-title: 'Roboto Slab', serif;
 
-$color-main: #9E2A2B;
-$color-two: #335C67;
-$color-three: #E09F3E;
+$color-main: #b61b1b;
+$color-chapters: #870d4e;
+$color-symbols: #49138b;
+$color-themes: #19227d;
+$color-places: #004c3f;
+$color-characters: #32681d;
+$color-objects: #f47e16;
+$color-location: #be350b;
 
 $color-danger: #ff0000;
 $color-warning:#ffa800;
@@ -82,9 +87,9 @@ p {
   font-family: $font-content;
   font-size: 1rem;
   padding: 0rem 0rem 0.5rem 1rem;
-  color: $color-two;
+  color: black;
     a{
-      color: $color-two;
+      color: black;
     }
 }
 
@@ -128,8 +133,8 @@ p {
       a{
         color: white;
         background-color: black;
-        padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-        border-radius: 0.5rem;
+        padding: 0.15rem 0.25rem 0.15rem 0.25rem;
+        border-radius: 0.25rem;
       }
 }
 .c-card-category {
@@ -175,7 +180,7 @@ p {
   border-color: black;
   margin: 1rem;
   a {
-    color:$color-three;
+    color:$color-objects;
   }
 
 }
