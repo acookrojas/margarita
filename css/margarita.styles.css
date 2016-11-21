@@ -1,48 +1,47 @@
 /* line 24, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 body {
-  min-width: 16rem;
   font: 100% "Open Sans", sans-serif;
 }
 
-/* line 29, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 28, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif;
   margin-top: 0em;
 }
 
-/* line 34, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 33, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 p {
   font-size: 0.25rem;
 }
 
-/* line 38, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 37, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-header {
   font-family: "Roboto Slab", serif;
 }
 
-/* line 40, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 39, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-header .site-branding__logo {
   float: left;
 }
 
-/* line 43, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 42, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-header .site-branding__name {
   font-size: 2.5rem;
   margin-top: 0.5rem;
 }
 
-/* line 44, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 43, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-header .site-branding__name a {
   color: black;
   text-decoration: none;
 }
 
-/* line 51, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 50, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-header .site-slogan {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 56, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 55, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .menu {
   clear: both;
   display: flex;
@@ -55,33 +54,33 @@ p {
   font-size: 1.5rem;
 }
 
-/* line 66, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 65, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .menu ul {
   list-style-type: none;
   margin-left: 0.5rem;
 }
 
-/* line 70, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 69, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .menu a {
   color: black;
   text-decoration: none;
 }
 
-/* line 74, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 73, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .menu a:hover {
   border-style: solid;
   border-width: 0rem 0rem 0.25rem 0rem;
   border-color: black;
 }
 
-/* line 79, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 78, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .menu .active {
   border-style: solid;
   border-width: 0rem 0rem 0.25rem 0rem;
   border-color: #b61b1b;
 }
 
-/* line 86, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 85, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .breadcrumb {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
@@ -89,32 +88,31 @@ p {
   color: black;
 }
 
-/* line 91, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 90, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .breadcrumb a {
   color: black;
 }
 
-/* line 96, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 95, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-main {
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
-/* line 97, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 96, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-main h1 {
   font-size: 2rem;
   padding-left: 1rem;
 }
 
-/* line 105, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 104, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .view-content {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap-reverse;
   justify-content: center;
   align-items: baseline;
 }
 
-/* line 113, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 111, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-cards-view1 {
   background-color: #ffffff;
   border-style: solid;
@@ -122,26 +120,26 @@ p {
   border-color: black;
   box-shadow: 0 2.5px 10px 0 rgba(0, 0, 0, 0.19);
   padding: 0.5rem;
-  width: 16rem;
+  width: 14rem;
   margin: 0.5rem;
   min-height: 20rem;
-  flex: 0 2 auto;
+  flex: 1 1 auto;
 }
 
-/* line 125, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 123, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-quote {
   font-family: "Roboto Slab", serif;
   font-size: 1.5em;
 }
 
-/* line 129, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 127, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .field-type-taxonomy-term-reference {
   font-family: "Open Sans", sans-serif;
   font-size: 0.65em;
   margin: 0.75rem 0rem 0rem 0rem;
 }
 
-/* line 133, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 131, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .field-type-taxonomy-term-reference a {
   font-size: 0.85em;
   letter-spacing: 0.09em;
@@ -152,58 +150,58 @@ p {
   border-radius: 0.25rem;
 }
 
-/* line 148, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 146, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-themes {
   color: #19227d;
 }
 
-/* line 150, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 148, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-themes a {
   background-color: #19227d;
 }
 
-/* line 154, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 152, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-characters {
   color: #32681d;
 }
 
-/* line 156, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 154, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-characters a {
   background-color: #32681d;
 }
 
-/* line 160, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 158, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-places {
   color: #004c3f;
 }
 
-/* line 162, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 160, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-places a {
   background-color: #004c3f;
 }
 
-/* line 166, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 164, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-objects {
   color: #F9A825;
 }
 
-/* line 168, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 166, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-objects a {
   background-color: #F9A825;
 }
 
-/* line 172, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 170, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-symbols {
   color: #49138b;
 }
 
-/* line 174, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 172, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .c-card-symbols a {
   color: black;
   background-color: #49138b;
 }
 
-/* line 180, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 178, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-footer {
   display: block;
   min-height: 10rem;
@@ -218,7 +216,7 @@ p {
   margin: 1rem;
 }
 
-/* line 192, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
+/* line 190, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
 .l-footer a {
   color: #F9A825;
 }

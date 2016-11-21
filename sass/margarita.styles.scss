@@ -22,7 +22,6 @@ $color-warning:#ffa800;
 $color-success: #02af03;
 
 body {
-  min-width: 16rem;
   font: 100% $font-content;
 }
 
@@ -99,14 +98,13 @@ p {
     padding-left: 1rem;
     //margin: 0em 0em 0em 2em;
   }
-  padding: 0.5rem 0rem 0.5rem 0rem
+  padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 .view-content {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-flow: row wrap-reverse;
+  justify-content:center;
   align-items: baseline;
 }
 
@@ -117,10 +115,10 @@ p {
   border-color: black;
   box-shadow: 0 2.5px 10px 0 rgba(0, 0, 0, 0.19);
   padding: 0.5rem;
-  width: 16rem;
+  width: 14rem;
   margin: 0.5rem;
   min-height: 20rem;
-  flex:0 2 auto;
+  flex:1 1 auto;
 }
 .c-card-quote {
   font-family: $font-title;
