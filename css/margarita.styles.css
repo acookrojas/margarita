@@ -109,7 +109,7 @@ p {
   display: flex;
   flex-flow: row wrap-reverse;
   justify-content: center;
-  align-items: baseline;
+  align-items: stretch;
 }
 
 /* line 111, C:/Users/User/Sites/devdesktop/margarita/sites/all/themes/margarita/sass/margarita.styles.scss */
