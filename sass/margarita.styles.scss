@@ -23,6 +23,7 @@ $color-success: #02af03;
 
 body {
   font: 100% $font-content;
+
 }
 
 h1, h2, h3, h4, h5, h6, {
@@ -34,6 +35,10 @@ p {
   font-size: 0.25rem;
 }
 
+ul li {
+  list-style: none!important;
+  list-style-type: none;
+}
 .l-header {
   font-family: $font-title;
   .site-branding__logo {
@@ -117,7 +122,7 @@ p {
   padding: 0.5rem;
   width: 14rem;
   margin: 0.5rem;
-  min-height: 20rem;
+  min-height: 16rem;
   flex:1 1 auto;
 }
 .c-card-quote {
@@ -125,56 +130,55 @@ p {
   font-size: 1.5em;
 }
 .field-type-taxonomy-term-reference{
-    font-family: $font-content;
-    font-size: 0.65em;
-    margin: 0.75rem 0rem 0rem 0rem;
-      a{
-        font-size: 0.85em;
-        letter-spacing: 0.09em;
-        color: white;
-        background-color: black;
-        text-decoration: none;
-        padding: 0.15rem 0.25rem 0.15rem 0.25rem;
-        border-radius: 0.25rem;
-      }
+  display:inline-flex;
+  font-family: $font-content;
+  font-size: 0.65em;
+  margin: 0.75rem 0rem 0rem 0rem;
+    a{
+      font-size: 0.85em;
+      letter-spacing: 0.09em;
+      color: white;
+      background-color: black;
+      text-decoration: none;
+      padding: 0.15rem 0.25rem 0.15rem 0.25rem;
+      border-radius: 0.25rem;
+    }
 }
 .c-card-category {
-    a{
-
-    }
-    }
+  a{
+  }
+  }
 .c-card-themes {
-    color: $color-themes;
-    a{
-      background-color: $color-themes;
-    }
-    }
+  color: $color-themes;
+  a{
+    background-color: $color-themes;
+  }
+  }
 .c-card-characters {
-    color: $color-characters;
-    a{
-      background-color: $color-characters;
-    }
-    }
+  color: $color-characters;
+  a{
+    background-color: $color-characters;
+  }
+  }
 .c-card-places {
-    color: $color-places;
-    a{
-      background-color: $color-places;
-    }
-    }
+  color: $color-places;
+  a{
+    background-color: $color-places;
+  }
+  }
 .c-card-objects {
-    color: $color-objects;
-    a{
-      background-color: $color-objects;
-    }
-    }
+  color: $color-objects;
+  a{
+    background-color: $color-objects;
+  }
+  }
 .c-card-symbols {
-    color: $color-symbols;
-    a{
-      color: white;
-      background-color: $color-symbols;
-
-    }
-    }
+  color: $color-symbols;
+  a{
+    color: white;
+    background-color: $color-symbols;
+  }
+  }
 .l-footer {
   display: block;
   min-height: 10rem;
